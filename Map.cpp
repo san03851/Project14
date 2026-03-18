@@ -10,7 +10,7 @@ Map::~Map()
 
 }
 
-void CheckCollision()
+void CheckCollision(int Row, int Col, int* Mapptr, int* Playerpos, int* Enemypos)
 {
 
 }
@@ -20,12 +20,12 @@ void CheckDestination()
 
 }
 
-void CreateMap(int Row, int Col, int* Arrayptr, int* Playerpos, int* Enemypos)
+void CreateMap(int Row, int Col, int* Mapptr, int* Playerpos, int* Enemypos)
 {
 
 }
 
-void DrawMap(int Row, int Col, int* Arrayptr)
+void DrawMap(int Row, int Col, int* Mapptr)
 {
 
 }

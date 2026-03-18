@@ -19,7 +19,7 @@ void SetPosition()
 
 }
 
-void EnemyMoveLogic()
+void EnemyMoveLogic(int* Playerpos)
 {
 
 }
